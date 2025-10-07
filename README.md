@@ -2,7 +2,7 @@
 # Medical Chatbot Project
 ________________________________________
 ## Executive Summary
-Project Title: MedBot4U - AI-Powered Medical Symptom Assessment Chatbot
+**Project Title:** MedBot4U - AI-Powered Medical Symptom Assessment Chatbot
 Problem: People often search online for symptom information but face confusing, unreliable medical information. Access to immediate medical consultation is limited, especially in remote areas.
 Solution: Developed an intelligent medical chatbot using advanced LLM technology that provides reliable symptom assessment and disease suggestion based on medical data.
 
