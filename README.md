@@ -63,24 +63,24 @@ ________________________________________
 ## Results & Performance
 
 ### Technical Performance Metrics:
-Method	Accuracy	Response Time	Resource Usage
-Rule-based	~65%	<1 second	Low CPU
-RAG System	~78%	5-10 seconds	High GPU
-Fine-tuned LLM	~82%	2-5 seconds	Medium GPU
+   |  Method	        | Accuracy	 |    Response Time	  |   Resource Usage |
+   |  Rule-based	   |  ~65%	 |     <1 second	  |  Low CPU         |
+   |  RAG System	   |  ~78%	 |     5-10 seconds	  |   High GPU       |
+   |  Fine-tuned LLM   |  ~82%	 |     2-5 seconds	  |   Medium GPU     |
 
 ### User Experience Results:
 •	✅ Natural Language Understanding: Handles varied symptom descriptions
 •	✅ Multiple Suggestions: Provides top 2-3 possible conditions
 •	✅ Appropriate Disclaimers: Always emphasizes professional consultation
 •	⚠️ Response Variability: Some inconsistency in output formatting
-Sample Interaction:
+**Sample Interaction:**
 text
-User: "I have fever, cough, and headache"
-Bot: "Based on your symptoms, possible conditions:
-     1. Common Cold - fever, cough, headache, runny nose
-     2. COVID-19 - fever, cough, headache, fatigue
-     
-     Note: This is not a medical diagnosis..."
+     User: "I have fever, cough, and headache"
+     Bot: "Based on your symptoms, possible conditions:
+          1. Common Cold - fever, cough, headache, runny nose
+          2. COVID-19 - fever, cough, headache, fatigue
+          
+          Note: This is not a medical diagnosis..."
 ________________________________________
 
 ## Conclusions & Recommendations
