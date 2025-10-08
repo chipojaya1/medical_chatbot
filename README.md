@@ -1,4 +1,3 @@
-```markdown
 # MedBot4U - AI Medical Symptom Assessment Chatbot
 
 <!-- TABLE OF CONTENTS -->
