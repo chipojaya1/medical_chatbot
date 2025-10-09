@@ -11,6 +11,21 @@
 - [Recommended Next Steps](#recommended-next-steps)
 - [Risk Considerations](#risk-considerations)
 
+## New Prototype: Data Science Career Copilot
+
+To support aspiring data scientists, the repository now also contains a lightweight Retrieval-Augmented Generation (RAG) prototype built with Flask (`app/`). The service indexes curated Bureau of Labor Statistics (BLS) and Glassdoor insights stored in `data/rag_corpus.json` and exposes a `/ask` endpoint plus a minimal chat interface. Each response surfaces bullet-point guidance with explicit source citations, aligning with the transparency requirement for career-planning research.
+
+### Quickstart
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+flask --app app.app run
+```
+
+Open <http://127.0.0.1:5000> to chat with the assistant. Provide questions about entry-level salaries, required skills, hiring trends, or interview preparation to receive sourced answers.
+
 ## Executive Summary
 
 Our project aimed to develop an intelligent medical chatbot that provides reliable symptom assessment and disease suggestions using advanced Large Language Models (LLMs). The chatbot helps bridge the gap between initial symptom research and professional medical consultation by offering immediate, easy-to-understand information about possible health conditions.
